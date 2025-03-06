@@ -1,14 +1,24 @@
-<<<<<<< HEAD
-# Weed_Identification_CV
-Weed Identification
+
+# Weed Identification
 
 This repository is designed to house cutting-edge computer vision models and tools for detecting weeds in agricultural fields using drone and DSLR imagery. Our aim is to enhance precision agriculture practices by providing an efficient and scalable solution for weed identification and management.
 
-Introduction
+# Introduction
 ![01](https://github.com/user-attachments/assets/1d7e7771-1b4c-4725-acb6-3a7e8f73e768)
 ![02](https://github.com/user-attachments/assets/7873f930-f9e8-447c-b072-5e3d242473e8)
 
 
+# Repository Structure
+'''
+├── LICENSE
+├── README.md              # This file
+├── .gitmodules            # (Contains submodule info for Ultralytics repos if applicable)
+├── ultralytics_yolov8/    # Code/modified version of Ultralytics YOLO v8 (regular folder)
+├── runs/                  # Training and evaluation results (e.g., runs/16b_1gpu_50eps_03)
+├── train_test_yolov8.py   # Script for training and testing the YOLO model
+├── yolo_split_crop_data.py# Script for splitting and cropping image data for YOLO
+├── yolov8n.pt             # Pre-trained model weights (YOLOv8 nano variant)
+'''
 Results:
 
 ![dsmplr result](https://github.com/user-attachments/assets/fdda38a0-9905-4121-af6c-e4cdeefbdcca)
