@@ -3,8 +3,6 @@
 
 This repository is designed to house cutting-edge computer vision models and tools for detecting weeds in agricultural fields using drone and DSLR imagery. Our aim is to enhance precision agriculture practices by providing an efficient and scalable solution for weed identification and management.
 
-# Introduction
-
 
 # Repository Structure
 ```plaintext
